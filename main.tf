@@ -2,12 +2,6 @@ provider "aws" {
   region = var.aws_region
 }
 
-provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAXV4I4PUJS4GHOCGR"
-  secret_key = "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"
-}
-
 #Create security group with firewall rules
 resource "aws_security_group" "my_security_group" {
   name        = var.security_group
