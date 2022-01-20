@@ -1,7 +1,7 @@
 provider "aws" {
 region = var.aws_region
-access_key = "AKIAXV4I4PUJS4GHOCGR"
-secret_key = "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"
+access_key = "AKIAXV4I4PUJ4SKF4LIT"
+secret_key = "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"
 endpoints {
 sts = "https://sts.ap-south-1.amazonaws.com"
 }
