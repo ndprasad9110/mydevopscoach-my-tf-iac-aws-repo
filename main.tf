@@ -1,14 +1,7 @@
 provider "aws" {
 region = var.aws_region
-access_key = "AKIAXV4I4PUJ4SKF4LIT"
-secret_key = "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"
-endpoints {
-sts = "https://sts.ap-south-1.amazonaws.com"
-}
-assume_role {
-role_arn = "arn:aws:iam::528031186195:role/terraform"
-session_name = "terraform_session_name"
-}
+access_key = "AKIA6NPWQE3WFKOQL3V3"
+secret_key = "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"
 }
 
 #Create security group with firewall rules
